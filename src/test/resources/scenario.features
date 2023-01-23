@@ -1,5 +1,42 @@
 Feature:Assessment Test
 
-  Scenario: Case1
-    Given Connect the post url
-    And Get the post
+  Scenario: 1.Create User
+    Given create user
+    When Connect the post url
+    Then Get the post
+
+
+  Scenario: 2.To Get An Error Code, Re-Add Is Done With The Same User
+    Given to get an error code, re-add is done with the same user
+    When Connect the post url
+    Then Get the post
+
+
+  Scenario: 3.User Listing Process
+    Given user listing process
+    When Connect the post url
+    Then Get the post
+
+
+  Scenario: 4.Session Assigment
+    Given session assigment
+    When Connect the post url
+    Then Get the post
+
+
+  Scenario: 5.Failed Session
+    Given faild session
+    When Connect the post url
+    Then Get the post
+
+
+  Scenario: 6.Process Of Listing Created Session
+    Given process of listing created session
+    When Connect the post url
+    Then Get the post
+
+
+  Scenario: 7.Session Listing Is Done
+    Given session listing is done
+    When Connect the post url
+    Then Get the post

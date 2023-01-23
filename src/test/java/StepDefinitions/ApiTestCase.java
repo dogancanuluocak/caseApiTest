@@ -1,4 +1,4 @@
-package Steps;public class ApiTestCase {
+package StepDefinitions;public class ApiTestCase {
 
 
 }

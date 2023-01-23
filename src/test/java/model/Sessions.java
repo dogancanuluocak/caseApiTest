@@ -1,9 +1,9 @@
 package model;
 
-public class Session {
+public class Sessions {
     private String testTakerName;
 
-    public Session(String testTakerName) {
+    public Sessions(String testTakerName) {
         this.testTakerName = testTakerName;
     }
 
@@ -15,6 +15,6 @@ public class Session {
         this.testTakerName = testTakerName;
     }
 
-    public Session() {
+    public Sessions() {
     }
 }
